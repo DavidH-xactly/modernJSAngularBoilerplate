@@ -1,0 +1,29 @@
+{
+  "name": "myangularJsBoilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf src/dist && webpack --bail --progress --profile",
+    "start:dev": "webpack-dev-server --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/angular": "^1.6.54",
+    "html-webpack-plugin": "^3.2.0",
+    "rimraf": "^2.6.3",
+    "ts-loader": "^5.4.5",
+    "typescript": "^3.4.5",
+    "webpack": "^4.30.0",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "dependencies": {
+    "@types/angular-ui-router": "^1.1.40",
+    "angular": "^1.7.8",
+    "angular-ui-router": "^1.0.22",
+    "webpack-cli": "^3.3.1"
+  }
+}
