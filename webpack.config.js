@@ -15,7 +15,13 @@ module.exports = {
     contentBase: "./dist"
   },
   module: {
-    rules: [{ test: /\.tsx?$/, loader: "ts-loader" }]
+    rules: [
+      { test: /\.tsx?$/, loader: "ts-loader" },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"]
+      }
+    ]
   },
   plugins: [new HtmlWebpackPlugin({ template: "./dist/index.html" })]
 };
