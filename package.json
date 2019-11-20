@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@types/angular-ui-router": "^1.1.40",
-    "angular": "^1.7.8",
+    "angular": "^1.7.9",
     "angular-ui-router": "^1.0.22",
     "webpack-cli": "^3.3.1"
   }
